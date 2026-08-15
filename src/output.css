@@ -254,8 +254,32 @@
   .m-auto {
     margin: auto;
   }
+  .mx-16 {
+    margin-inline: calc(var(--spacing) * 16);
+  }
+  .mx-30 {
+    margin-inline: calc(var(--spacing) * 30);
+  }
+  .mx-42 {
+    margin-inline: calc(var(--spacing) * 42);
+  }
+  .mx-42\.25 {
+    margin-inline: calc(var(--spacing) * 42.25);
+  }
   .mx-auto {
     margin-inline: auto;
+  }
+  .my-16 {
+    margin-block: calc(var(--spacing) * 16);
+  }
+  .my-30 {
+    margin-block: calc(var(--spacing) * 30);
+  }
+  .my-42 {
+    margin-block: calc(var(--spacing) * 42);
+  }
+  .my-42\.25 {
+    margin-block: calc(var(--spacing) * 42.25);
   }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
@@ -323,11 +347,17 @@
   .mb-24 {
     margin-bottom: calc(var(--spacing) * 24);
   }
+  .mb-30 {
+    margin-bottom: calc(var(--spacing) * 30);
+  }
   .mb-42 {
     margin-bottom: calc(var(--spacing) * 42);
   }
   .mb-42\.25 {
     margin-bottom: calc(var(--spacing) * 42.25);
+  }
+  .mb-\[120px\] {
+    margin-bottom: 120px;
   }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
@@ -349,6 +379,9 @@
   }
   .ml-\[16px\] {
     margin-left: 16px;
+  }
+  .ml-\[64p\] {
+    margin-left: 64p;
   }
   .ml-\[64px\] {
     margin-left: 64px;
@@ -687,6 +720,9 @@
   }
   .text-left {
     text-align: left;
+  }
+  .text-start {
+    text-align: start;
   }
   .font-serif {
     font-family: var(--font-serif);

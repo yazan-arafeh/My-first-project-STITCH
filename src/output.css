@@ -720,6 +720,12 @@
   .pt-40 {
     padding-top: calc(var(--spacing) * 40);
   }
+  .pt-\[191\.66px\] {
+    padding-top: 191.66px;
+  }
+  .pt-\[196\] {
+    padding-top: 196;
+  }
   .pr-7 {
     padding-right: calc(var(--spacing) * 7);
   }

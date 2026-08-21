@@ -347,11 +347,17 @@
   .mr-12 {
     margin-right: calc(var(--spacing) * 12);
   }
+  .mr-12\.5 {
+    margin-right: calc(var(--spacing) * 12.5);
+  }
   .mr-16 {
     margin-right: calc(var(--spacing) * 16);
   }
   .mr-32 {
     margin-right: calc(var(--spacing) * 32);
+  }
+  .mr-\[50px\] {
+    margin-right: 50px;
   }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
@@ -888,6 +894,9 @@
   .text-center {
     text-align: center;
   }
+  .text-end {
+    text-align: end;
+  }
   .text-left {
     text-align: left;
   }
@@ -940,6 +949,21 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
+  .text-\[8px\] {
+    font-size: 8px;
+  }
+  .text-\[12px\] {
+    font-size: 12px;
+  }
+  .text-\[16px\] {
+    font-size: 16px;
+  }
+  .text-\[28px\] {
+    font-size: 28px;
+  }
+  .text-\[40px\] {
+    font-size: 40px;
+  }
   .text-\[64px\] {
     font-size: 64px;
   }
@@ -970,11 +994,17 @@
   .text-clip {
     text-overflow: clip;
   }
+  .text-\[8\] {
+    color: 8;
+  }
   .text-\[32\] {
     color: 32;
   }
   .text-\[64p\] {
     color: 64p;
+  }
+  .text-\[xs\] {
+    color: xs;
   }
   .text-black {
     color: var(--color-black);
@@ -1305,8 +1335,14 @@
     .md\:pl-\[295px\] {
       padding-left: 295px;
     }
+    .md\:text-end {
+      text-align: end;
+    }
     .md\:text-left {
       text-align: left;
+    }
+    .md\:text-start {
+      text-align: start;
     }
     .md\:text-4xl {
       font-size: var(--text-4xl);

@@ -1080,8 +1080,14 @@
   .border-white {
     border-color: var(--color-white);
   }
+  .bg-\[\#C4C7C7\] {
+    background-color: #C4C7C7;
+  }
   .bg-\[\#F5F3F3\] {
     background-color: #F5F3F3;
+  }
+  .bg-\[\#e1e4e4\] {
+    background-color: #e1e4e4;
   }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
@@ -1203,6 +1209,12 @@
   }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
+  }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
+  }
+  .py-12 {
+    padding-block: calc(var(--spacing) * 12);
   }
   .py-16 {
     padding-block: calc(var(--spacing) * 16);

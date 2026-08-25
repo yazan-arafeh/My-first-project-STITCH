@@ -939,6 +939,9 @@
   .justify-self-start {
     justify-self: flex-start;
   }
+  .overflow-hidden {
+    overflow: hidden;
+  }
   .rounded {
     border-radius: 0.25rem;
   }
